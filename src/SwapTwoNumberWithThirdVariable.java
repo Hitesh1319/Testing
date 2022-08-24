@@ -5,7 +5,7 @@ public class SwapTwoNumberWithThirdVariable {
         System.out.println("Before swapping"+a+":"+b);
         c=a;
         a=b;
-        b=a;
+        b=c;
         System.out.println("After swapping"+a+":"+b);
     }
 }
